@@ -1,0 +1,6 @@
+{
+    "AUTHOR" : "HeeyItsLewis",
+    "DESCRIPTION" : "When the command is ran the bot will clear chat",
+    "DISABLED" : false,
+    "NAME" : "purgepins"
+}
