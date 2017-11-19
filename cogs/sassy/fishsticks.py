@@ -9,18 +9,18 @@ import os
 from .utils import checks
 
 class sassy:
-    "POPCOIN"
+    "MEOW"
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command(no_pm=True)
 
-    async def sassy(self):
+    async def fishsticks(self):
         quote = ['WADIYATALKINABEET {}', 'YOU FUKIN DRUGGO {}', 'NAH NAH MAN POPCOIN {}', 'HEROIN ITS GOOD FOR YOUR CHOLESTEROL {}']
         emoji = ['Kippa',' TheTarFu']
         sassy = choice(quote).format(choice(emoji))
-        await self.bot.say(sassy)
+        await self.bot.say(fishsticks)
 
 def setup(bot):
-    n = sassy(bot)
+    n = fishsticks(bot)
     bot.add_cog(n)
