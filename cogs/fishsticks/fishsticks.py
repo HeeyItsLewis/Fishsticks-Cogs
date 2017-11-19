@@ -18,7 +18,7 @@ class fishsticks:
     async def fishsticks(self):
         quote = ['WADIYATALKINABEET {}', 'YOU FUKIN DRUGGO {}', 'NAH NAH MAN POPCOIN {}', 'HEROIN ITS GOOD FOR YOUR CHOLESTEROL {}']
         emoji = ['Kippa',' TheTarFu']
-        sassy = choice(quote).format(choice(emoji))
+        fishsticks = choice(quote).format(choice(emoji))
         await self.bot.say(fishsticks)
 
 def setup(bot):
