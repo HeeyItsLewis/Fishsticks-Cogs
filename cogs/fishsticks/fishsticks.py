@@ -8,7 +8,7 @@ import asyncio
 import os
 from .utils import checks
 
-class sassy:
+class fishsticks:
     "MEOW"
     def __init__(self, bot):
         self.bot = bot
